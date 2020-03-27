@@ -1,0 +1,34 @@
+{
+  "name": "webpack-demo",
+  "version": "1.0.0",
+  "description": "深入浅出Webpack学习项目",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --config part1/webpack.config.js --open",
+    "build": "webpack --config part1/webpack.config.js",
+    "watch": "webpack --config part1/webpack.config.js --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kk-tec/webpack-demo.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "kk-tec",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kk-tec/webpack-demo/issues"
+  },
+  "homepage": "https://github.com/kk-tec/webpack-demo#readme",
+  "devDependencies": {
+    "css-loader": "^3.4.2",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "html-webpack-plugin": "^4.0.2",
+    "mini-css-extract-plugin": "^0.9.0",
+    "style-loader": "^1.1.3",
+    "webpack": "^4.42.1",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
