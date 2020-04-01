@@ -4,9 +4,9 @@
   "description": "深入浅出Webpack学习项目",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server --config part1/webpack.config.js --open",
-    "build": "webpack --config part1/webpack.config.js",
-    "watch": "webpack --config part1/webpack.config.js --watch",
+    "dev": "webpack-dev-server --config webpack.config.js --open",
+    "build": "webpack --config webpack.config.js",
+    "watch": "webpack --config webpack.config.js --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

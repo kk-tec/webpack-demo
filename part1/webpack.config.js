@@ -6,7 +6,7 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
   mode: "development",
   // JavaScript 执行入口文件
-  entry: path.resolve(__dirname, './main.js'),
+  entry: path.resolve(__dirname, './src/main.js'),
   devtool: 'source-map',
   output: {
     // 把所有依赖的模块合并输出到一个 bundle.js 文件
@@ -38,7 +38,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       title: "webpack demo",
-      template: path.resolve(__dirname, './index.html')
+      template: path.resolve(__dirname, './src/index.html')
     })
   ],
   devServer: {
