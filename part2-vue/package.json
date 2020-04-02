@@ -1,0 +1,48 @@
+{
+  "name": "webpack-demo",
+  "version": "1.0.0",
+  "description": "深入浅出Webpack学习项目",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --config webpack.config.js --open",
+    "build": "webpack --config webpack.config.js",
+    "watch": "webpack --config webpack.config.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kk-tec/webpack-demo.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "kk-tec",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kk-tec/webpack-demo/issues"
+  },
+  "homepage": "https://github.com/kk-tec/webpack-demo#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "autoprefixer": "^9.7.5",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.4.2",
+    "html-webpack-plugin": "^4.0.4",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.13.1",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^8.0.2",
+    "vue-loader": "^15.9.1",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.42.1",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "vue": "^2.6.11"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
